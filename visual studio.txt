@@ -1,1 +1,24 @@
 https://prod.liveshare.vsengsaas.visualstudio.com/join?BE175355DBEB5D4C155CED56A566623BB209
+✅ Set username and email:
+git config --global user.name "your username"
+git config --global user.email "youremail@example.com"
+
+
+✅ Check:
+git config --global user.name
+git config --global user.email
+
+
+✅ Creating a new repository and first commit (using terminal):
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/your-project-link.git
+git push -u origin main
+
+
+🔁 Next time you make changes
+git add .
+git commit -m "Your message"
+git push
+

@@ -1,0 +1,6 @@
+bday_1=input("Type the date of the first birthday you want to store : ")
+bday_2=input("Type the date of the second birthday you want to store : ")
+bday_3=input("Type the date of the third birthday you want to store : ")
+bday_4=input("Type the date of the fourth birthday you want to store : ")
+bday_5=input("Type the date of the fifth birthday you want to store : ")
+print(f" birthday 1 = {bday_1} \n birthday 2 = {bday_2} \n birthday 3 = {bday_3} \n birthday 4 = {bday_4} \n birthday 5 = {bday_5}")
