@@ -1,9 +1,9 @@
-chem_marks=float(input("Enter Your marks that you got in chemistry : "))
+chem_marks=int(input("Enter Your marks that you got in chemistry : "))
 physics_marks=float(input("Enter Your marks that you got in physics : "))
 biology_marks=float(input("Enter Your marks that you got in biology : "))
 math_marks=float(input("Enter Your marks that you got in maths : "))
 
-
+print(f"The marks you got in chemistry are : {chem_marks}")
 total_marks = 100
 sub_marks = total_marks/4 #25
 
