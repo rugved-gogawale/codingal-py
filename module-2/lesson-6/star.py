@@ -1,7 +1,7 @@
 import turtle
 turtle.Screen().bgcolor("yellow")
 t=turtle.Turtle()
-side=int(input("Enter a side length: "))
+s 
 distance=side/1.66
 pen=side/25
 t.pensize(pen)

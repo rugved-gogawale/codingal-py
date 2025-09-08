@@ -1,0 +1,16 @@
+import turtle
+t=turtle.Turtle()
+square=int(input("Enter the number of squares you want: "))
+for i in range(square):
+    t.pendown()
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.penup()
+    t.forward(120)
+turtle.done()
