@@ -1,0 +1,18 @@
+
+start = int(input("Enter the starting number: "))
+end = int(input("Enter the ending number: "))
+
+
+squared_numbers = []
+for i in range(start, end + 1):
+    squared_numbers.append(i**2)
+
+odd_numbers = []
+even_numbers = []
+for num in squared_numbers:
+    if num % 2 == 0:
+        even_numbers.append(num)
+    else:
+        odd_numbers.append(num)
+
+print(even_numbers)
