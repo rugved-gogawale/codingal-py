@@ -1,8 +1,5 @@
-
 start = int(input("Enter the starting number: "))
 end = int(input("Enter the ending number: "))
-
-
 squared_numbers = []
 for i in range(start, end + 1):
     squared_numbers.append(i**2)
@@ -14,5 +11,6 @@ for num in squared_numbers:
         even_numbers.append(num)
     else:
         odd_numbers.append(num)
-
+print(squared_numbers)
 print(even_numbers)
+print(odd_numbers)
