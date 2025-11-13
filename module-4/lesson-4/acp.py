@@ -1,0 +1,11 @@
+setx={"green","blue"}
+sety={"blue","yellow"}
+print(setx,sety)
+setzunion=setx.union(sety)
+print(setzunion)
+setzint=setx.intersection(sety)
+print(setzint)
+setzdif=setx.difference(sety)
+print(setzdif)
+setzsymdif=setx.symmetric_difference(sety)
+print(setzsymdif)
