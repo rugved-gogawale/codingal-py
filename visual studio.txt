@@ -19,6 +19,6 @@ git push -u origin main
 
 🔁 Next time you make changes
 git add .
-git commit -m "Your message"
+git commit -m "lesson work or homework"
 git push
 
