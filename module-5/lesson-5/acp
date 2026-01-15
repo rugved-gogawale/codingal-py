@@ -1,0 +1,30 @@
+
+class Car:
+    pass
+class Ferrari(Car):
+    def __init__(self,f,s):
+        self.f=f
+        self.s=s
+    def fuel(self):
+
+        print(self.f)
+    def speed(self):
+        print(self.s)
+class BMW(Car):
+    def __init__(self,f,s):
+        self.f=f
+        self.s=s
+    def fuel(self):
+        print(self.f)
+    def speed(self):
+        print(self.s)
+
+car1=Ferrari("dino",200)
+car2=BMW("battery",1)
+car1.fuel()
+car1.speed()
+car2.fuel()
+car2.speed()
+        
+        
+
